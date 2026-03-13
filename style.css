@@ -18,7 +18,7 @@ body {
 }
 
 #grad3 {
-  height: 450px;
+  height: 500px;
   background-color: rgb(0, 0, 0); /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom, #ff7e5f, #feb47b);
 }
