@@ -3,6 +3,35 @@ body {
   font-family: 'Inter', sans-serif; /* This is the main background colour of the website, then other things come in like the gradient */
 }
 
+h1 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h2 
+{
+  color: rgb(0, 255, 0);
+  font-weight: bold;
+  font-size: 30px;
+  /* This is the title of the first list which has the subjects that I am studying at Hutt Valley High School */
+}
+
+h4 
+{
+  color: rgb(0, 255, 0);
+  font-weight: 900;
+  font-size: 35px;
+}
+
+
+h5 
+{
+  color: rgb(0, 255, 0);
+  font-size: 30px;
+  /* This is the MAIN THREE AREAS OF CALCULUS, which are differentiation, integration and limits. */
+}
+
 
 #grad1 {
   height: 400px;
@@ -84,16 +113,14 @@ footer {
 .p3 
   {color: rgb(255, 255, 0);
    font-weight: bold;
-    margin-top: 50px; /* Adjust the number for more or less space */
+   margin-top: 50px; /* Adjust the number for more or less space */
+   font-size: 20px;
   }
 
 .p4
   {color: rgb(0, 255, 251);}
-h2 
-{
-  color: rgb(0, 255, 0);
-  font-weight: bold;
-}
+
+
 
 li
   {
