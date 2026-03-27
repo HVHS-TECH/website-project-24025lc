@@ -143,5 +143,27 @@ h4
 }
 
 
+.branch-container {
+  display: flex;
+  /* Change 'center' to 'flex-start' to move them left */
+  justify-content: flex-start; 
+  
+  /* This adds that "slight" gap from the left edge */
+  padding-left: 0px; 
+  
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
 
 
+.branch-container img {
+  border: 2px solid #28a745; /* Optional: adds a green border to match your theme */
+  border-radius: 10px;       /* Optional: rounds the corners of the images */
+  transition: transform 0.3s; /* Makes the hover effect smooth */
+}
+
+/* Fun extra: make them zoom slightly when you hover over them */
+.branch-container img:hover {
+  transform: scale(1.05);
+}
