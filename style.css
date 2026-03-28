@@ -17,9 +17,16 @@ h2
   /* This is the title of the first list which has the subjects that I am studying at Hutt Valley High School */
 }
 
+h3 
+{
+  color: rgb(0, 255, 0);
+  font-weight: bold;
+}
+
 h4 
 {
   color: rgb(0, 255, 0);
+  font-weight: bold;
   font-weight: 900;
   font-size: 35px;
 }
@@ -29,8 +36,30 @@ h5
 {
   color: rgb(0, 255, 0);
   font-size: 30px;
-  /* This is the MAIN THREE AREAS OF CALCULUS, which are differentiation, integration and limits. */
+  /* This is the MAIN THREE BRANCHES OF CALCULUS, which are differentiation, integration and limits. */
 }
+
+
+/* This makes the header visible and removes the gap below it */
+h6 {
+  color: rgb(0, 255, 251);
+  font-size: 25px;
+  margin-bottom: 7px; /* Pulls the list up */
+}
+
+/* This targets the third list and removes its top gap */
+.available-list {
+  margin-top: 0px; 
+  padding-left: 20px;
+}
+
+/* This ensures the list items match the cyan header color */
+.available-list li {
+  color: rgb(0, 255, 251); 
+  font-weight: bold;
+}
+
+
 
 
 #grad1 {
@@ -47,17 +76,18 @@ h5
 
 #grad3 {
   width: 100%;
-  min-height: 600px; /* Changed from height to min-height */
+  /* Remove min-height: 650px; */
+  height: auto; /* Allows the container to grow as much as needed */
+  padding: 40px 20px; /* Adds space inside so images aren't touching edges */
+  
   background-color: rgb(0, 0, 0); 
   background-image: linear-gradient(to bottom, #ff7e5f, #feb47b);
   
-  /* This centers the image and text inside the gradient */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start
+  justify-content: flex-start;
 }
-
 
 
 
@@ -103,11 +133,16 @@ footer {
 .p1 {
   color: rgb(255, 166, 0);
   font-weight: bold;
+  margin-top: 25px; /* Adjust the number for more or less space */
+  font-size: 15px
 }
+ 
 
 .p2 {
   color: rgb(255, 166, 0);
   font-weight:bold;
+  margin-top: 25px; /* Adjust the number for more or less space */
+  font-size: 15px;
 }
 
 .p3 
@@ -118,10 +153,33 @@ footer {
   }
 
 .p4
-  {color: rgb(0, 255, 251);}
+  {color: rgb(0, 255, 251);
+  font-weight: bold;
+   margin-top: 50px; /* Adjust the number for more or less space */
+   font-size: 20px;
+  }
 
+ 
+.p5 
+  {color: rgb(255, 255, 255);
+   font-weight: bold;
+   margin-top: 50px; /* Adjust the number for more or less space */
+   font-size: 20px;
+  }
 
+.p6
+  {color: rgb(255, 255, 255);
+   font-weight: bold;
+   margin-top: 50px; /* Adjust the number for more or less space */
+   font-size: 20px;
+  }
 
+.p7
+  {color: rgb(0, 255, 0);
+   font-weight: bold;
+   margin-top: 25px; /* Adjust the number for more or less space */
+   font-size: 19px;
+  }
 li
   {
     color: rgb(0, 255, 0);
@@ -129,17 +187,9 @@ li
   }
 
 
-h3 
-{
-  color: rgb(0, 255, 0);
+.available-list li {
+  color: rgb(0, 255, 251); 
   font-weight: bold;
-}
-
-h4 
-{
-  color: rgb(0, 255, 0);
-  font-weight: bold;
-
 }
 
 
