@@ -77,25 +77,30 @@ h6 {
 }
 
 #grad2 {
-  height: 500px;
+  height: 650px;
   background-color: rgb(0, 0, 0); /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom, red, rgb(255, 238, 0));
 }
 
 #grad3 {
   width: 100%;
-  /* Remove min-height: 650px; */
-  height: auto; /* Allows the container to grow as much as needed */
+  height: 500px; 
   padding: 40px 20px; /* Adds space inside so images aren't touching edges */
   
   background-color: rgb(0, 0, 0); 
+ 
   background-image: linear-gradient(to bottom, #ff7e5f, #feb47b);
-  
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
+.learn_calculus_fast {
+  margin-top: 40px; /* Increase this number to move it further down */
+  margin-left: 20px; /* Optional: adds a little space from the left edge too */
+}
+
 
 
 
@@ -188,6 +193,23 @@ footer {
    margin-top: 25px; /* Adjust the number for more or less space */
    font-size: 19px;
   }
+
+
+.p8 
+  {color: rgb(0, 0, 0);
+   font-weight: bold;
+   margin-top: 50px; /* Adjust the number for more or less space */
+   font-size: 20px;
+  }
+
+.p9 
+  {color: rgb(0, 0, 0);
+   font-weight: bold;
+   margin-top: 30px; /* Adjust the number for more or less space */
+   font-size: 20px;
+  }
+
+  
 li
   {
     color: rgb(0, 255, 0);
