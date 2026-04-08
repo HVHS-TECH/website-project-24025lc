@@ -19,8 +19,6 @@ h2
 }
 
 
-
-
 h3 
 {
   color: rgb(0, 255, 0);
@@ -69,7 +67,23 @@ h6 {
 }
 
 
+.questions-list {
+  color: white !important;
+  font-weight: bold;
+  
+  /* 1. This turns the bullets back on */
+  list-style-type: disc; 
 
+  /* 2. Give the bullets some room (20px is usually perfect) */
+  padding-left: 20px; 
+  margin-left: 0;
+}
+
+/* This ensures the bullets are also white */
+.questions-list li {
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
 
 
 
@@ -80,7 +94,7 @@ h6 {
 }
 
 #grad2 {
-  min-height: 1050px;
+  height: 3200px;
   background-color: rgb(0, 0, 0); /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom, red, rgb(255, 238, 0));
 }
@@ -213,7 +227,28 @@ footer {
    font-size: 20px;
   }
 
-  
+.p10 
+  {color: rgb(255, 255, 255);
+   font-weight: bold;
+   margin-top: 30px; /* Adjust the number for more or less space */
+   font-size: 30px;
+  } 
+
+.p11 
+  {color: rgb(0, 0, 0);
+   font-weight: bold;
+   margin-top: 40px; /* Adjust the number for more or less space */
+   font-size: 20px;
+  }
+
+
+.p12 
+  {color: rgb(0, 0, 0);
+   font-weight: bold;
+   margin-top: 55px; /* Adjust the number for more or less space */
+   font-size: 20px;
+  }
+
 li
   {
     color: rgb(0, 255, 0);
