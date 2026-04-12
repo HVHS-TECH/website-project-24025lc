@@ -1,140 +1,11 @@
 body {
-  background-color: rgb(0, 0, 0) ;
-  font-family: 'Inter', sans-serif; /* This is the main background colour of the website, then other things come in like the gradient */
-}
-
-h1 {
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 40px;
-}
-
-h2 
-{
-  color: rgb(0, 255, 0);
-  font-weight: bold;
-  font-size: 30px;
-    /* This is the MAIN THREE BRANCHES OF CALCULUS, which are differentiation, integration and limits. */
-
+  /* This is the main background colour of the website, however other css classes will take precedence like the gradient */ 
+  background-color: rgb(0, 0, 0);
+  font-family: 'Inter', sans-serif;
 }
 
 
-h3 
-{
-  color: rgb(0, 255, 0);
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: 40px; 
-}
-
-h4 
-{
-color: rgb(0, 255, 251);
-  font-size: 25px;
-  margin-bottom: 7px; /* Pulls the list up */
-}
-
-/* This makes the header visible and removes the gap below it */
-
-
-h5 
-{
-  color: rgb(0, 255, 0);
-  font-size: 30px;
-    /* This is the title of the first list which has the subjects that I am studying at Hutt Valley High School */
-
-}
-
-
-
-h6 {
-  color: rgb(0, 255, 0);
-  font-weight: bold;
-  font-weight: 900;
-  font-size: 35px;
-}
-
-/* This targets the third list and removes its top gap */
-.available-list {
-  margin-top: 0px; 
-  padding-left: 20px;
-}
-
-/* This ensures the list items match the cyan header color */
-.available-list li {
-  color: rgb(0, 255, 251); 
-  font-weight: bold;
-}
-
-
-.questions-list {
-  color: white !important;
-  font-weight: bold;
-  
-  /* 1. This turns the bullets back on */
-  list-style-type: disc; 
-
-  /* 2. Give the bullets some room (20px is usually perfect) */
-  padding-left: 20px; 
-  margin-left: 0;
-}
-
-/* This ensures the bullets are also white */
-.questions-list li {
-  color: rgb(0, 0, 0);
-  margin-bottom: 20px;
-}
-
-
-
-#grad1 {
-  height: 250px;
-  background-color: rgb(0, 0, 0); /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(38, 255, 0));
-}
-
-#grad2 {
-  height: 3200px;
-  background-color: rgb(0, 0, 0); /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom, red, rgb(255, 238, 0));
-}
-#grad3 {
-  width: 100%;
-  min-height: 500px; /* This makes the background cover at least the full screen height */
-  padding: 40px 20px;
-  
-  /* Set your original colors as the background-color fallback */
-  background-color: #feb47b; 
-  
-  /* Your original gradient */
-  background-image: linear-gradient(to bottom, #ff7e5f, #feb47b);
-  
-  /* CRITICAL: This prevents the gradient from repeating or cutting off */
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.learn_calculus_fast {
-  margin-top: 40px; /* Increase this number to move it further down */
-  margin-left: 5px; /* Optional: adds a little space from the left edge too */
-} 
-
-
-
-
-header {
-  color: rgb(255, 255, 255);
-}
-
-
-footer {
-  color: rgb(255, 255, 255);
-  text-align: left;
-  padding: 20px;
-}
-
-
-
+/* Styles used in the <nav> element */
 .button {
   background-color: #28a745;
   color: white;
@@ -151,7 +22,6 @@ footer {
   box-shadow: 0 6px 8px rgba(0,0,0,0.15);
 }
 
-
 .horizontal {
   border: none;
   height: 8px;
@@ -161,100 +31,127 @@ footer {
   margin: 20px auto;
 }
 
-.p1 {
-  color: rgb(255, 166, 0);
-  font-weight: bold;
-  margin-top: 25px; /* Adjust the number for more or less space */
-  font-size: 15px
-}
- 
 
-.p2 {
-  color: rgb(255, 166, 0);
-  font-weight:bold;
-  margin-top: 25px; /* Adjust the number for more or less space */
-  font-size: 15px;
+/* Styles used in the <footer> element */
+footer {
+  color: rgb(255, 255, 255);
 }
 
-.p3 
-  {color: rgb(255, 255, 0);
-   font-weight: bold;
-   margin-top: 50px; /* Adjust the number for more or less space */
-   font-size: 20px;
-  }
 
-.p4
-  {color: rgb(0, 255, 251);
+/* Styles used in the <main> element */
+/* Headers */
+h1 {
+  color: rgb(255, 255, 255);
   font-weight: bold;
-   margin-top: 50px; /* Adjust the number for more or less space */
-   font-size: 20px;
-  }
+  font-size: 40px;
+}
 
- 
-.p5 
-  {color: rgb(255, 255, 255);
-   font-weight: bold;
-   margin-top: 50px; /* Adjust the number for more or less space */
-   font-size: 20px;
-  }
+h2 {
+  color: rgb(0, 255, 0);
+  font-weight: bold;
+  font-size: 30px;
+}
 
-.p6
-  {color: rgb(255, 255, 255);
-   font-weight: bold;
-   margin-top: 50px; /* Adjust the number for more or less space */
-   font-size: 20px;
-  }
-
-.p7
-  {color: rgb(0, 255, 0);
-   font-weight: bold;
-   margin-top: 25px; /* Adjust the number for more or less space */
-   font-size: 19px;
-  }
+h3 {
+  color: rgb(0, 255, 0);
+  font-weight: bold;
+  font-size: 25px;
+}
 
 
-.p8 
-  {color: rgb(0, 0, 0);
-   font-weight: bold;
-   margin-top: 50px; /* Adjust the number for more or less space */
-   font-size: 20px;
-  }
+/* Text styling */
+.section_common_text {
+  font-weight: bold;
+  font-size: 20px;
+}
 
-.p9 
-  {color: rgb(0, 0, 0);
-   font-weight: bold;
-   margin-top: 30px; /* Adjust the number for more or less space */
-   font-size: 20px;
-  }
+.text_green {
+  color: rgb(0, 255, 0);
+}
 
-.p10 
-  {color: rgb(255, 255, 255);
-   font-weight: bold;
-   margin-top: 30px; /* Adjust the number for more or less space */
-   font-size: 30px;
-  } 
+.text_yellow {
+  color: rgb(255, 255, 0);
+}
 
-.p11 
-  {color: rgb(0, 0, 0);
-   font-weight: bold;
-   margin-top: 40px; /* Adjust the number for more or less space */
-   font-size: 20px;
-  }
+.text_black {
+  color: rgb(0, 0, 0);
+}
+
+.text_white {
+  color: rgb(255, 255, 255);
+}
+
+.text_orange {
+  color: rgb(255, 166, 0);
+}
+
+.text_blue {
+  color: rgb(0, 255, 251);
+}
+
+/* Image container */
+.branch-container {
+  display: flex;
+  justify-content: flex-start;    /* Change 'center' to 'flex-start' to align content left */
+
+  padding-left: 0px;              /* This adds a "slight" gap from the left edge */
+  gap: 30px;
+
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.branch-container img {
+  border: 2px solid #28a745;    /* Add a green border to match the theme */
+  border-radius: 10px;            /* Round the corners of the images */
+  transition: transform 0.3s;     /* Make the hover effect smooth */
+}
+
+/* Make the images zoom slightly when you hover over them */
+.branch-container img:hover {
+  transform: scale(1.05);
+}
 
 
-.p12 
-  {color: rgb(0, 0, 0);
-   font-weight: bold;
-   margin-top: 55px; /* Adjust the number for more or less space */
-   font-size: 20px;
-  }
+/* Colour gradients */
+.vertical_colour_gradient_green {
+  min-height: 250px;
+  background-color: rgb(0, 0, 0);   /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(38, 255, 0));
+}
 
-li
-  {
-    color: rgb(0, 255, 0);
-    font-weight: bold;
-  }
+.vertical_colour_gradient_red {
+  min-height: 2600px;
+  background-color: rgb(0, 0, 0);   /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, red, rgb(255, 238, 0));
+}
 
+ .vertical_colour_gradient_orange {
+  width: 100%;
+  min-height: 500px;      /* This makes the background cover at least the full screen height */
+  padding: 40px 20px;
+
+  background-color: #feb47b; 
+  background-image: linear-gradient(to bottom, #ff7e5f, #feb47b);
+
+  /* CRITICAL: This prevents the gradient from repeating or cutting off */
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+/* Adjust image position */
+.offset_image_down_and_left {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+
+/* List styling */
+.available-list {
+  margin-top: 0px; 
+  padding-left: 20px;
+}
 
 .available-list li {
   color: rgb(0, 255, 251); 
@@ -262,27 +159,18 @@ li
 }
 
 
-.branch-container {
-  display: flex;
-  /* Change 'center' to 'flex-start' to move them left */
-  justify-content: flex-start; 
-  
-  /* This adds that "slight" gap from the left edge */
-  padding-left: 0px; 
-  
-  gap: 30px;
-  flex-wrap: wrap;
-  margin-top: 20px;
+.questions-list {
+  color: rgb(255, 255,255);
+  font-weight: bold;
+  font-size: 20px;
+
+  list-style-type: disc;    /* This turns the bullets back on */
+
+  padding-left: 50px;       /* Give the bullets some room (20px is usually perfect) */
+  margin-left: 0;
 }
 
-
-.branch-container img {
-  border: 2px solid #28a745; /* Optional: adds a green border to match your theme */
-  border-radius: 10px;       /* Optional: rounds the corners of the images */
-  transition: transform 0.3s; /* Makes the hover effect smooth */
-}
-
-/* Fun extra: make them zoom slightly when you hover over them */
-.branch-container img:hover {
-  transform: scale(1.05);
+.questions-list li {
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
 }
