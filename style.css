@@ -112,6 +112,34 @@ h3 {
   transform: scale(1.05);
 }
 
+/* Image-Link container */
+/* Vertical container (1 column, 4 rows) */
+.image-link-outer-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+/* Horizontal container (2 columns, 1 row) */
+.image-link-inner-row {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+/* Left column: fixed width */
+.image-link-cell:first-child {
+  flex: 0 0 400px;
+  text-align: left;
+}
+
+/* Right column: fills remaining space */
+.image-link-cell:last-child {
+  flex: 1;
+  text-align: left;
+}
+
 
 /* Colour gradients */
 .vertical_colour_gradient_green {
@@ -124,24 +152,20 @@ h3 {
   min-height: 2600px;
   background-color: rgb(0, 0, 0);   /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom, red, rgb(255, 238, 0));
+  padding: 20px 10px;               /* Pad 20px and 10px to be the same as the .offset_image_down_and_right class */
 }
 
  .vertical_colour_gradient_orange {
-  width: 100%;
-  min-height: 500px;      /* This makes the background cover at least the full screen height */
-  padding: 40px 20px;
-
-  background-color: #feb47b; 
+  min-height: 100px;
+  background-color: rgb(0, 0, 0);   /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom, #ff7e5f, #feb47b);
-
-  /* CRITICAL: This prevents the gradient from repeating or cutting off */
-  background-attachment: fixed;
-  background-size: cover;
+  padding: 10px 10px;
 }
 
 
 /* Adjust image position */
-.offset_image_down_and_left {
+/* Pad 20px and 10px to be the same as the .vertical_colour_gradient_red class */
+.offset_image_down_and_right {
   padding-top: 20px;
   padding-left: 10px;
 }
